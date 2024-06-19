@@ -1,0 +1,77 @@
+body{   
+    height: 100vh;/* 100%窗口高度 */
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(200deg,#b8b5b8,#909eb5);/* 渐变背景 */
+}
+.img-circle1 {
+    border-radius: 50%; /* 设置border-radius为50%，使图片变为圆形 */
+    width: 252px; /* 设置图片宽度 */
+    height: 252px; /* 设置图片高度 */
+}
+.img-circle2{
+    border-radius: 15px;
+    padding-top: 20px;
+    width: 200px; /* 设置图片宽度 */
+    height: 200px; /* 设置图片高度 */
+}
+.header{
+    float: left;
+    width: 100%;
+    padding: 20px;
+    padding-top: 100px;
+    text-align: center;
+    font-size: medium;
+}
+.wrapper{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#inner div#cont-1{
+    text-align: center;
+    font-size: larger;
+    border-radius: 10px;
+    background: rgb(161, 161, 209);
+    display: table-cell;
+    height: 270px;
+    width: 320px;
+}
+#inner div#cont-2{
+    text-align: center;
+    font-size: larger;
+    border-radius: 10px;
+    background: rgb(161, 161, 209);
+    display: table-cell;
+    height: 270px;
+    width: 320px;
+}
+#inner div#cont-3{
+    font-size: larger;
+    text-align: center;
+    border-radius: 10px;
+    background: rgb(161, 161, 209);
+    display: table-cell;
+    height: 270px;
+    width: 320px;
+}
+
+#tablec{
+    display: table;
+	border-spacing: 30px;
+}
+#tr{
+	display: table-row;
+}
+.footer{
+    background-color: #909eb5;
+    color:            #efe5d0;
+    text-align:       center;
+    padding:          15px;
+    margin: 0px 10px 10px 10px;
+    font-size:        90%;
+}
+
+
+
+
